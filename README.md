@@ -1,2 +1,2 @@
-# MADE-Submission-4
-My Submission 4 in Menjadi Android Developer Expert Class
+# MADE-Final-Submission
+My Final Submission in Menjadi Android Developer Expert Class
