@@ -41,7 +41,7 @@ public class FavoriteMovieAdapter extends RecyclerView.Adapter<FavoriteMovieAdap
     public void onBindViewHolder(final MovieViewHolder holder, int position) {
         final FavoriteMovie favoriteMovie = getItem(position);
 
-        GlideApp.with(context).load("https://image.tmdb.org/t/p/original/" + favoriteMovie.getPoster()).into(holder.ivPoster);
+        GlideApp.with(context).load("https://image.tmdb.org/t/p/original" + favoriteMovie.getPoster()).into(holder.ivPoster);
         holder.tvTitle.setText(favoriteMovie.getTitle());
         holder.tvShortDescription.setText(favoriteMovie.getShortDescription());
         holder.cvMovie.setOnClickListener(new View.OnClickListener() {

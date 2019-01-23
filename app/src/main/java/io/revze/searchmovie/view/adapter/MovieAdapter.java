@@ -48,7 +48,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
     public void onBindViewHolder(final MovieViewHolder holder, int position) {
         final Movie movie = getMovies().get(position);
 
-        GlideApp.with(context).load("https://image.tmdb.org/t/p/original/" + movie.getPoster()).into(holder.ivPoster);
+        GlideApp.with(context).load("https://image.tmdb.org/t/p/original" + movie.getPoster()).into(holder.ivPoster);
         holder.tvTitle.setText(movie.getTitle());
         holder.tvShortDescription.setText(movie.getShortDescription());
         holder.cvMovie.setOnClickListener(new View.OnClickListener() {

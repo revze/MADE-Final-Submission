@@ -56,7 +56,7 @@ public class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFa
         RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.favorite_widget_item);
 
         try {
-            Bitmap poster = GlideApp.with(context).asBitmap().load("https://image.tmdb.org/t/p/original/" + favoriteMovie.getPoster()).centerCrop().submit().get();
+            Bitmap poster = GlideApp.with(context).asBitmap().load("https://image.tmdb.org/t/p/original" + favoriteMovie.getPoster()).centerCrop().submit().get();
             remoteViews.setImageViewBitmap(R.id.iv_poster, poster);
         } catch (ExecutionException e) {
             e.printStackTrace();

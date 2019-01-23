@@ -186,7 +186,7 @@ public class MovieDetailActivity extends AppCompatActivity implements MovieDetai
         this.response = response;
 
         posterUrl = response.getPoster();
-        GlideApp.with(context).load("https://image.tmdb.org/t/p/original/" + posterUrl).into(ivPoster);
+        GlideApp.with(context).load("https://image.tmdb.org/t/p/original" + posterUrl).into(ivPoster);
         tvTitle.setText(response.getTitle());
         tvTagline.setText(response.getTagline());
         tvRating.setText(response.getRating());

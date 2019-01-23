@@ -39,7 +39,7 @@ public class FavoriteMovieAdapter extends CursorAdapter {
             TextView tvTitle = view.findViewById(R.id.tv_title);
             TextView tvShortDescription = view.findViewById(R.id.tv_short_desc);
 
-            GlideApp.with(context).load("https://image.tmdb.org/t/p/original/" + getColumnString(cursor, DatabaseContract.FavoriteMovieColumns.POSTER)).into(ivPoster);
+            GlideApp.with(context).load("https://image.tmdb.org/t/p/original" + getColumnString(cursor, DatabaseContract.FavoriteMovieColumns.POSTER)).into(ivPoster);
             tvTitle.setText(getColumnString(cursor, DatabaseContract.FavoriteMovieColumns.TITLE));
             tvShortDescription.setText(getColumnString(cursor, DatabaseContract.FavoriteMovieColumns.SHORT_DESCRIPTION));
         }
