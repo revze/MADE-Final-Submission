@@ -59,7 +59,7 @@ public class DailyReminderService extends BroadcastReceiver {
                 .setContentIntent(pendingIntent);
         NotificationManager mNotificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT);
+            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_HIGH);
             notificationBuilder.setChannelId(CHANNEL_ID);
             if (mNotificationManager != null) {
                 mNotificationManager.createNotificationChannel(channel);

@@ -6,20 +6,12 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.os.Binder;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.bumptech.glide.request.target.AppWidgetTarget;
-import com.bumptech.glide.request.transition.Transition;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 import io.revze.searchmovie.R;
-import io.revze.searchmovie.db.FavoriteMovieHelper;
 import io.revze.searchmovie.model.FavoriteMovie;
 import io.revze.searchmovie.utils.GlideApp;
 
