@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/now_playing_movie"
+        android:icon="@drawable/ic_event"
+        android:title="@string/movie_now_playing_title"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/up_playing_movie"
+        android:icon="@drawable/ic_schedule"
+        android:title="@string/movie_up_playing_title"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/search_movie"
+        android:icon="@drawable/ic_search"
+        android:title="@string/movie_search_movie_title"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/favorite_movie"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/movie_favorite_movie_title"
+        app:showAsAction="ifRoom"/>
+
+</menu>

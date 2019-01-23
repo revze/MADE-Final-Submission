@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="main_edt_text_search_hint">Movie Title</string>
+    <string name="main_search_action">Search</string>
+    <string name="network_error">No internet connection</string>
+    <string name="server_error">Server error</string>
+    <string name="movie_detail_rating">Rating</string>
+    <string name="movie_detail_duration">Duration</string>
+    <string name="movie_detail_language">Language</string>
+    <string name="movie_detail_release_date">Release</string>
+    <string name="movie_detail_overview">Overview</string>
+    <string name="movie_detail_genres">Genres</string>
+    <string name="movie_now_playing_title">Now Playing</string>
+    <string name="movie_up_playing_title">Up Coming</string>
+    <string name="movie_search_movie_title">Search</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="movie_favorite_movie_title">Favorite</string>
+    <string name="empty_favorite_movie">Empty Favorite Movie</string>
+    <string name="menu_favorite_title">Favorite</string>
+    <string name="added_to_favorite_message">Added to favorite!</string>
+    <string name="removed_from_favorite_message">Removed from favorite!</string>
+    <string name="daily_reminder_message">Movie App missing You!</string>
+    <string name="release_today_info">has been release today!</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
